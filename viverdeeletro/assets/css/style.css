@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none !important;
+  color: unset !important;
+}
+section {
+  padding-top: clamp(24px, 4vw, 40px);
+  padding-bottom: clamp(24px, 4vw, 40px);
+}
+.big {
+  font-size: clamp(25px, 4vw, 40px);
+}
+h1 {
+  font-size: clamp(25px, 3vw, 35px);
+  line-height: clamp(40px, 5vw, 56px);
+  font-weight: 400;
+}
+h2 {
+  font-size: clamp(22px, 3vw, 30px);
+  line-height: clamp(31px, 4vw, 40px);
+  font-weight: 400;
+}
+h3 {
+  font-size: clamp(20px, 3vw, 25px);
+  line-height: clamp(32px, 4vw, 40px);
+  font-weight: 700;
+}
+h5{
+  font-size: clamp(20px, 3vw,22px);
+  font-weight: 400;
+  font-family: Helvetica;
+}
+h6 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+}
+p {
+  font-size: clamp(16px, 3vw, 18px);
+  font-weight: 600;
+  line-height: clamp(19px, 3vw, 29px);
+}
+.bg {
+  background-color: #000000;
+}
+.white {
+  color: white;
+}
+.amarelo {
+  color: #ffcc00;
+}
+.cinza{
+  color:#8d8d8d !important;
+}
+.comprar {
+  font-size: 30px;
+  font-weight: 600;
+  background-color: #00b62d;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 0px 10px 0px -1px #006c1b;
+  padding: 20px 60px 20px 60px;
+  color: #fff;
+  text-align: center;
+  border: none;
+}
+.fa-check {
+  color: #027900;
+  font-size: 28px;
+}
+.fa-chevron-circle-right {
+  color: #000;
+  font-size: 28px;
+}
+.br-30 {
+  border-radius: 30px;
+}
+.br-60 {
+  border-radius: clamp(20px, 6vw, 60px);
+}
+.ff-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+.ff-poppins{
+  font-family: "Poppins", sans-serif;
+
+}
+/* HEADER */
+header{
+  background-color: #123586;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* DEPOIMENTOS */
+.box-depoimento {
+  border-radius: 5px 5px 5px 5px;
+  border: 1px dashed #000;
+  padding: 10px;
+}
+/* CONSERTO */
+.box-consertar {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: clamp(10px, 3vw, 20px);
+  border: 2px dotted #000;
+}
+.box-conserto2 {
+  background-color: #000000;
+  padding: 20px 20px 20px 20px;
+  border-radius: 15px 15px 15px 15px;
+  height: 100%;
+}
+.consertar i {
+  font-size: 75px;
+}
+/* PROPORCIONA */
+.proporciona .fa-whatsapp {
+  color: #21b116;
+  font-size: clamp(60px, 7vw, 78px);
+}
+/* BENEFÍCIOS  */
+.beneficios i {
+  color: #000000;
+  font-size: clamp(75px, 10vw, 100px);
+  margin-bottom: 24px;
+}
+/* TEMAS */
+.temas-box {
+  padding: 20px 40px 20px 40px;
+  background-color: #000;
+  border-radius: 20px;
+}
+/* BÔNUS */
+.box-bonus{
+  border-radius: 15px 15px 15px 15px;
+  margin-bottom: 20px;
+  border: 2px solid white;
+  padding: 20px;
+}
+.box-bonus-head{
+  background-color: white;
+  text-align: center;
+  color: #000;
+  font-size: 35px;
+  font-weight: 600;
+}
+/* OFERTA */
+.box-oferta{
+  background-color: #000;
+  padding: 20px;
+  height: 100%;
+}
+.divisor{
+  background-color: #00B62D;
+  height: 4px;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.titulo{
+  text-align: left;
+  color: #fff;
+  font-family: 'Poppins',Sans-serif;
+  font-size: clamp(21px,3vw,28px);
+  font-weight: 700;
+}
+.oferta h6{
+  color: white;
+  font-weight: 500;
+  font-family: 'Poppins',Sans-serif;
+}
+.valor{
+  text-align: center;
+    color: #fff;
+    font-family:'Poppins',Sans-serif;
+    font-size: clamp(40px,6vw,60px);
+    font-weight: 700;
+}
+.valor-anterior{
+  text-align: center;
+  color: #b5b5b5;
+  font-family: 'Poppins',Sans-serif;
+  font-size: clamp(30px,5vw,50px);
+  font-weight: 500;
+}
+.valor2{
+  text-align: center;
+  color: #00b62d;
+  font-family: 'Poppins',Sans-serif;
+  font-size: clamp(50px,8vw,80px);
+  font-weight: 700;
+}
+/* FAQ */
+.accordion-item{
+  background-color:  transparent;
+}
+.accordion-header {
+  margin: 0;
+  border:none;
+  padding: 20px 25px;
+  margin-bottom: 10px;
+  background-color:  #D4D4D4;
+}
+.accordion-button,
+.accordion-button:not(.collapsed),
+.accordion-button:focus,
+.accordion-button:hover {
+  color: #000000;
+  font-size: 20px;
+    font-weight: 600;
+    padding: 0;
+    background-color:  #D4D4D4;
+    box-shadow: inset 0 -1px 0 transparent;
+    border: none;
+    margin: 0;
+}
+.accordion-body {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 20px 20px 20px;
+  text-align: left;
+}
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after {
+  width: 0rem;
+  height: 0rem;
+  background-image: none;
+}
+.accordion-button::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 512'%3E%3Cpath d='M246.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 256c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l128-128z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  content: "";
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.accordion-button:not(.collapsed)::before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath d='M182.6 137.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8H288c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-128-128z'/%3E%3C/svg%3E");
+}
+/* FOOTER */
+footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+footer h6{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 17px;
+  font-weight: 600;
+}
+.social{
+  background-color: #25d366;
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social:hover{
+  opacity: .9;
+}
+.social i{
+  color: white;
+  font-size: 25px;
+}
+footer p{
+  color: #FFFFFF;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+}
+@media (max-width: 767px) {
+  .comprar {
+    font-size: 18px;
+    padding: 15px 15px 15px 15px;
+  }
+  /* CURSO */
+  .video-mobile {
+    aspect-ratio: 16 / 9;
+    position: relative;
+    display: block;
+    width: 100%;
+    max-width: 600px;
+  }
+  /* TEMAS */
+  .temas-box {
+    padding: 20px;
+  }
+}
